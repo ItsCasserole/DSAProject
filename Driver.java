@@ -36,7 +36,8 @@ public class Driver {
 				input = Integer.parseInt(stdin.readLine());
 				System.out.println(input);
 				switch(input) {
-				case 0: //exit
+				case 0: //customer exits
+					//Can we close the restuarant if there are still customers seated? Probably, right?
 					break;
 				case 1: //customer enters
 					break;
