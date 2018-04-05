@@ -1,4 +1,3 @@
-
 public class Table {
 	private String name;
 	private int seatCount;
@@ -7,19 +6,19 @@ public class Table {
 		this.seatCount = seatCount;
 	}
 	
-	public void setName(String name) {
+	protected void setName(String name) {
 		this.name = name;
 	}
 	
-	public String getName() {
+	protected String getName() {
 		return name;
 	}
 	
-	public void setSeatCount(int seatCount) {
+	protected void setSeatCount(int seatCount) {
 		this.seatCount = seatCount;
 	}
 	
-	public int getSeatCount() {
+	protected int getSeatCount() {
 		return seatCount;
 	}
 }
