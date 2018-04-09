@@ -49,22 +49,39 @@ public class Driver {
 				case 0: //customer exits
 					//Can we close the restuarant if there are still customers seated? Probably, right?
 					break;
+
 				case 1: //customer enters
+					enterCustomer();
 					break;
+
 				case 2: //customer seated
+					seatCustomer();
 					break;
+
 				case 3: //customer leaves
+					exitCustomer();
 					break;
+
 				case 4: //add a table
+					addTable();
 					break;
+
 				case 5: //remove a table
+					removeTable();
 					break;
+
 				case 6: //display tables
+					displayTables();
 					break;
+
 				case 7: //display waiting parties info
+					displayWaitingCustomers();
 					break;
+
 				case 8: //display served parties info
+					displaySeatedCustomers();
 					break;
+
 				default:
 					System.out.println("Invalid input.");
 						
@@ -73,4 +90,55 @@ public class Driver {
 			catch(IOException e) {}
 		}while(input != 0);
 	}
+
+
+	public static void enterCustomer()
+	{
+		System.out.println("Not yet implemented!");
+	}
+
+
+	public static void seatCustomer()
+	{
+		System.out.println("Not yet implemented!");
+	}
+
+	public static void exitCustomer()
+	{
+		System.out.println("Not yet implemented!");
+	
+	}
+
+	public static void addTable()
+	{
+		System.out.println("Not yet implemented!");
+	
+	}
+
+	public static void removeTable()
+	{
+		System.out.println("Not yet implemented!");
+	
+	}
+
+
+	public static void displayTables()
+	{
+		System.out.println("Not yet implemented!");
+	
+	}
+
+	public static void displayWaitingCustomers()
+	{
+		System.out.println("Not yet implemented!");
+	
+	}
+
+	public static void displaySeatedCustomers()
+	{
+		System.out.println("Not yet implemented!");
+	
+	}
+
+
 }
