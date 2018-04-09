@@ -13,4 +13,8 @@ public class SeatedGuest extends Guest{
 	protected Table getTable() {
 		return table;
 	}
+	
+	public String toString() {
+		return "Serving " + super.toString() + " at table " + table.getName() + " with " + table.getSeatCount() + " seats";
+	}
 }
