@@ -29,7 +29,17 @@ public class Driver {
 			}
 		}
 		
-		System.out.println("Select from the following menu:\n\t0. Close the restaurant.\n\t1. Customer party enters the restaurant.\n\t2. Customer party is seated and served.\n\t3. Customer party leaves the restaurant.\n\t4. Add a table.\n\t5. Remove a table.\n\t6. Display available tables.\n\t7. Display info about waiting customer parties.\n\t8. Display info about customer parties being served.");
+		System.out.println("Select from the following menu:" +
+		    "\n\t0. Close the restaurant." + 
+			"\n\t1. Customer party enters the restaurant." +
+			"\n\t2. Customer party is seated and served." +
+			"\n\t3. Customer party leaves the restaurant." +
+			"\n\t4. Add a table." + 
+			"\n\t5. Remove a table." + 
+			"\n\t6. Display available tables." + 
+			"\n\t7. Display info about waiting customer parties." + 
+			"\n\t8. Display info about customer parties being served.");
+
 		do {
 			try {
 				System.out.print("Make your selection now: ");
