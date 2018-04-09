@@ -54,6 +54,10 @@ public class Driver {
 				case 7: //display waiting parties info
 					break;
 				case 8: //display served parties info
+					break;
+				default:
+					System.out.println("Invalid input.");
+						
 				}
 			}
 			catch(IOException e) {}
