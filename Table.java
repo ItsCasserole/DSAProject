@@ -21,4 +21,8 @@ public class Table {
 	protected int getSeatCount() {
 		return seatCount;
 	}
+	
+	public String toString() {
+		return "table " + name + " with " + seatCount + " seats";
+	}
 }
