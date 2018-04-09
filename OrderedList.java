@@ -1,6 +1,7 @@
-public class OrderedList implements AscendinglyOrderedStringListInterface
+public class OrderedList
 {
 
+	/*
     ListRA<String> list;
 
     public OrderedList()
@@ -91,5 +92,5 @@ public class OrderedList implements AscendinglyOrderedStringListInterface
     {
         return list.toString();
     }
-
+*/
 }
