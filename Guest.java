@@ -28,5 +28,16 @@ public class Guest {
 	
 	protected int getSeatCount() {
 		return seatCount;
-	}	
+	}
+	public String toString() {
+		String pet;
+		if(petFriendly) {
+			pet = "(Pet)";
+		}
+		else {
+			pet = "(No pet)";
+		}
+		
+		return "Customer " + name + " party of " + seatCount + " " + pet;
+	}
 }
