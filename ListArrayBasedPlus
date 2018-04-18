@@ -1,0 +1,43 @@
+public class ListArrayBasedPlus<T> extends ListArrayBased<T>{
+
+
+    public ListArrayBasedPlus(){
+
+    }
+
+    private void resize(){
+        T[] temp = (T[]) new Object[(super.items).length+super.MAX_LIST];
+        for(int index = 0; index < super.numItems; index++){
+            temp[index] = super.items[index];
+        }
+
+        super.items = temp;
+    }
+
+    public void add(int index, Object item){
+        if(super.numItems == super.items.length){
+            resize();
+        }
+        super.add(index, item); //REVISED
+    }
+
+    public void reverse(){
+        T[] temp = (T[]) new Object[super.items.length];
+
+        for(int i = 0; i < super.numItems; i++){
+            temp[i] = super.items[numItems - 1 - i];
+        }
+        super.items =  temp;
+    }
+
+    public String toString(){
+        String st = "List of size "+ super.numItems +" has the following items : ";
+        for(int i = 0; i < super.numItems; i++){
+            st = st + (String) super.items[i] + " ";
+        }
+        return st;
+    }
+}
+
+
+
